@@ -2,8 +2,9 @@
   "name": "midnight-slate-theme",
   "displayName": "Midnight Slate",
   "description": "Deep navy background with cool slate text and bright teal, sky and amber accents.",
-  "version": "0.1.15",
+  "version": "0.1.17",
   "publisher": "wiertmir",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
