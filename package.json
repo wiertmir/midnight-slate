@@ -1,0 +1,42 @@
+{
+  "name": "midnight-slate-theme",
+  "displayName": "Midnight Slate",
+  "description": "Deep navy background with cool slate text and bright teal, sky and amber accents.",
+  "version": "0.1.15",
+  "publisher": "wiertmir",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiertmir/midnight-slate.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark",
+    "rich-struct"
+  ],
+  "files": [
+    "themes",
+    "images",
+    "LICENSE",
+    "README.md"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Slate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-slate-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package"
+  }
+}
