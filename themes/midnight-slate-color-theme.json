@@ -72,7 +72,7 @@
     "textLink.foreground": "#38bdf8",
     "textLink.activeForeground": "#38bdf8",
     "textCodeBlock.background": "#111c2e",
-    "textPreformat.foreground": "#e0af68",
+    "textPreformat.foreground": "#e0af68cc",
     "textPreformat.background": "#ffffff0d",
     "keybindingLabel.background": "#111c2e",
     "keybindingLabel.foreground": "#d1d5db",
@@ -318,7 +318,7 @@
     {
       "scope": "markup.inline.raw",
       "settings": {
-        "foreground": "#e0af68"
+        "foreground": "#e0af68cc"
       }
     },
     {
